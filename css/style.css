@@ -1,0 +1,66 @@
+.Container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+
+
+}
+
+header {
+    padding: 52px 98px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Pagename {
+    color: #27187F;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+li {
+    
+    display: inline-block;
+    padding: 0 25px;
+}
+
+.Active {
+    color: #27187F;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.NoActive {
+    color: #758BFD;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.search {
+    width: 221px;
+    height: 56px;
+    border-radius: 10px;
+    border: 3px solid #27187F;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.fa-magnifying-glass{
+    font-size: 44px;
+    color: #758BFD;
+
+}
+
+
