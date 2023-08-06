@@ -113,3 +113,68 @@ section {
     font-weight: 400;
     line-height: normal;
 }
+
+
+footer {
+    display: flex;
+    height: 239px;
+    padding: 75px 98px;
+    background: #758BFD;
+    justify-content: center;
+
+    gap: 663px;
+}
+
+.Contactinfo {
+    align-items: flex-start;
+}
+
+.Contact {
+    color: #00CAD7;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    margin-bottom: 15%;
+}
+
+.mail {
+    color: #FFF;
+    font-family: Century Gothic;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    padding: 21px 0 12px 0;
+
+}
+
+.contacticons {
+    margin-top: 10%;
+
+}
+
+.icons {
+    font-size: 25px;
+    color: #FFF;
+    padding-right: 15px;
+}
+
+.payment {
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+}
+
+.paymentlogos {
+    display: flex;
+    align-items: center;
+    width: 97px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+}
